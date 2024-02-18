@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <title>GameHouse Kenya - Exercise 0.2</title>
+</head>
+<body>
+  <header>
+    <h1>GameHouse <span style="color:green;">K</span><span style="color:red;">E</span></h1>
+  </header>
+  <section class="banner">
+    <img src="/images/banner.png" alt="gamehouse banner">
+  <nav class="main-nav">
+    <ul>
+      <li><a href=#>About</a></li>
+      <li><a href=#>Games</a></li>
+      <li><a href=#>Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <article>
+      <h2>Welcome to GameHouse KE</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Repudiandae possimus sapiente, ducimus asperiores error eum
+         ipsam quasi repellendus iste earum laboriosam nesciunt officiis 
+         atque rerum quos incidunt aspernatur velit voluptates. Lorem ipsum,
+          dolor sit amet consectetur adipisicing elit. Praesentium labore perferendis
+           minus incidunt doloribus, eligendi repudiandae earum dignissimos est neque
+            deserunt consequatur. Repudiandae autem maxime magnam eveniet! 
+            Atque, suscipit amet. Lorem ipsum, dolor sit amet consectetur 
+            adipisicing elit. Praesentium labore perferendis minus incidunt
+             doloribus, eligendi repudiandae earum dignissimos 
+             est neque deserunt consequatur. Repudiandae autem maxime magnam
+              eveniet! Atque, suscipit amet.</p>
+    </article>
+    <ul class="images">
+      <li><img src="/images/thumb-2.jpg" alt="consoles gaming"></li>
+      <li><img src="/images/thumb-3.png" alt="pc gaming"></li>
+    </ul>
+  </main>
+  <section class="join">
+    <h2>Be a part of GameHouse <span style="color:green;">K</span><span style="color:red;">E</span></h2>
+    <p>Join the GameHouse e-sports community and participate in gaming events in Kenya</p>
+    <button>Join Now!</button>
+  </section>
+  <footer>
+    <p class="copyright">Copyright &copy; <span id ="currentYear"></span> GameHouse Kenya</p>
+    <p>Made with <span class = "emoji">&#128516;</span> here</p>
+  </footer>
+  <script>
+    let currentYear = new Date().getFullYear();
+    document.getElementById("currentYear").innerText = currentYear;
+  </script>
+</body>
+</html>

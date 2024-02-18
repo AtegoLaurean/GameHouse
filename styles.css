@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body, ul, li, h1, h2, a{
+  margin: 0;
+  padding: 0;
+  font-family: 'Press Start 2P', cursive;
+  overflow-x: hidden;
+}
+body{
+  background-color: #121212;
+}
+p{
+  font-size: 18px;
+}
+header{
+  background-color: white;
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+header h1{
+  color: #121212;
+  border: 8px solid #121212;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 30px;
+}
+
+.banner img{
+  max-width: 100%;
+}
+
+nav{
+  background: whitesmoke;
+  padding: 20px;
+  position: sticky;
+  top: 100px;
+  z-index: 1;
+  width: 100%;
+}
+nav ul{
+  white-space: nowrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+nav li{
+  width: 33%;
+  display: inline-block;
+  font-size: 24px;
+}
+nav li a{
+  text-decoration: none;
+  color: #121212;
+}
+nav li a:hover{
+  font-size: 27px;
+}
+
+main{
+  max-width: 100%;
+  margin: 80px auto;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+article h2{
+  color: white;
+  font-size: 48px;
+}
+article p{
+  line-height: 2em;
+  color: white;
+}
+
+article{
+  text-align: center;
+  width: 100%;
+}
+
+.images{
+  text-align: center;
+  margin: 80px 0;
+  white-space: nowrap;
+}
+.images li{
+  display: inline-block;
+  list-style-type: none;
+  width: 39%;
+  margin: 20px 5%;
+  position: relative;
+}
+.images li:hover{
+  top: -4px;
+}
+.images li img{
+  max-width: 100%;
+}
+section.join{
+  background: whitesmoke;
+  text-align: center;
+  padding: 60px 20px;
+  color: #121212;
+  width: 100%;
+}
+section.join h2{
+  font-size: 36px;
+}
+button{
+  font-family: 'Press Start 2P', cursive;
+  padding: 20px;
+  border-radius: 30px;
+  font-size: 24px;
+  background-color: #121212;
+  color: white;
+  margin-top: 5px;
+}
+button:hover{
+  background-color: white;
+  color: #121212;
+}
+
+footer{
+  background: #121212;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+.emoji{
+  position: relative;
+  top: -3px;
+}
